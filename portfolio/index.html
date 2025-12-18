@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio – Sophian Alami Chentoufi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-galaxy">
+<!-- Particules de fond -->
+<div class="bg-orbit"></div>
+<div class="bg-stars"></div>
+
+<header class="site-header glass-blur slide-down">
+  <a href="index.html" class="logo">
+    <span class="logo-orb"></span>
+    <span class="logo-text">Sophian<span class="logo-dot">.</span></span>
+  </a>
+
+  <button id="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav id="main-nav" class="main-nav">
+    <ul>
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a class="btn btn-small" href="contact.html">Contact</a></li>
+      <li><a class="btn btn-small" href="cv/ALAMI_CHENTOUFI_CV.pdf">CV</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="hero" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-text fade-in">
+        <p class="eyebrow">Étudiant en 2e année de BUT Informatique — parcours RACDV</p>
+        <h1 class="glitch-title" data-text="Game Designer en devenir">
+          Game Designer en devenir
+        </h1>
+        <p class="subtitle">
+          Je m'appelle <span class="highlight">Sophian Alami Chentoufi</span>, j'ai 19 ans. Actuellement en deuxième année de BUT Informatique, je vous propose de découvrir mon parcours, mes projets et mes ambitions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">Voir mes projets</a>
+          <a href="#about" class="btn ghost">Découvrir mon parcours</a>
+        </div>
+        <div class="hero-tags">
+          <span>Jeux vidéo</span>
+          <span>Game Design</span>
+          <span>Java / Python / C#</span>
+        </div>
+      </div>
+
+      <div class="hero-media fade-in delay-1">
+        <div class="hero-card floating">
+          <div class="hero-avatar">
+            <img src="assets/IMG_20251018_180328.jpg" alt="Portrait de Sophian (avatar)" />
+            <div class="hero-status">
+              <span class="dot"></span> Ouvert aux opportunités
+            </div>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Spécialisation visée</span>
+              <p class="meta-value">Game Designer</p>
+            </div>
+            <div>
+              <span class="meta-label">Objectif</span>
+              <p class="meta-value">Créer mon propre studio de jeux vidéo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-floating-cards">
+          <div class="mini-card">
+            <span class="mini-title">Jeux favoris</span>
+            <p>Paladins, Minecraft, Rocket League, Undertale, Dead by Daylight, Dying Light.</p>
+          </div>
+          <div class="mini-card">
+            <span class="mini-title">Contenu</span>
+            <p>Création de contenus TikTok & YouTube autour du jeu vidéo et du speedrun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="about" class="section">
+    <div class="container section-header fade-in">
+      <h2>Pourquoi l'informatique ?</h2>
+      <p>Et pourquoi pas ? 😅</p>
+    </div>
+
+    <div class="container about-grid">
+      <article class="card about-card fade-in">
+        <h3>Un parcours atypique</h3>
+        <p>
+          À l’origine, je n’étais pas destiné à m’orienter vers le domaine de l’informatique. J’avais une véritable affinité pour l’histoire et la géographie. Cependant, mes résultats au collège ne m’ont pas permis d’accéder à une seconde générale pour approfondir ces matières.
+        </p>
+        <p>
+          Je me suis donc tourné vers une autre passion qui, vous l’aurez deviné, est l’informatique. En première et terminale STI2D, j’ai pu découvrir différents aspects de cette discipline, notamment le développement de jeux vidéo. Même avec cette expérience limitée, ce domaine m’a immédiatement captivé.
+        </p>
+      </article>
+
+      <article class="card about-card fade-in delay-1">
+        <h3>Le déclic BUT Info</h3>
+        <p>
+          C’est en cherchant une formation sur Parcoursup que j’ai découvert le BUT Informatique. Je me suis dit :
+        </p>
+        <p class="quote">
+          « J’aime l’informatique… C’est un BUT Informatique… c’est parti ! »
+        </p>
+        <p>
+          En arrivant en première année, le véritable coup de foudre s’est produit, plus précisément pour le développement de jeux vidéo. Une fois en deuxième année, cette passion s’est encore plus affirmée. Depuis, elle ne cesse de grandir et me pousse à toujours en apprendre davantage dans ce domaine. A travers la réalisation de projets.
+        </p>
+      </article>
+
+      <article class="card about-card fade-in delay-2">
+        <h3>Un regard curieux</h3>
+        <p>
+          Rien que le fait de me poser des questions comme :
+        </p>
+        <p class="quote">
+          « Comment ça se fait qu’en cliquant sur ma touche “Z”, mon personnage avance ? »<br />
+          « Comment est-ce possible de modéliser de la 3D dans les jeux vidéo ? »
+        </p>
+        <p>
+          Ces questions, qui paraissent anodines au premier abord, sont l’essence même de l’évolution de l’informatique.
+        </p>
+      </article>
+    </div>
+
+    <div class="container about-goal fade-in">
+      <div class="goal-card">
+        <h3>Objectif : Game Designer</h3>
+        <p>
+          Concrètement, j’aimerais me spécialiser en tant que <strong>Game Designer</strong> afin d’acquérir un maximum d’expérience dans ce domaine et, si possible, créer un jour mon propre studio de jeux vidéo.
+        </p>
+        <p>
+          Pourquoi j’aime tant ce domaine ? C’est très simple : il me permet de combiner la technique (logique, développement, gameplay) et la créativité, tout en collaborant avec d’autres passionnés comme moi. Pour moi, il n’y a rien de plus gratifiant.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO / SPEEDRUN -->
+  <section class="section">
+    <div class="container section-header fade-in">
+      <h2>Jeux vidéo & speedrun</h2>
+      <p>Pendant mon temps libre, je joue, j’expérimente et je tente des records.</p>
+    </div>
+
+    <div class="container video-layout">
+      <div class="video-text card fade-in">
+        <p>
+          Pendant mon temps libre, je joue à de nombreux jeux vidéo tels que Paladins, Minecraft, Rocket League,
+          Undertale, Dead by Daylight ou encore Dying Light.
+        </p>
+        <p>
+          J’aime également créer du contenu sur TikTok et YouTube, notamment autour du jeu vidéo. Il m’arrive aussi de tenter des records du monde de speedrun sur certains jeux.
+        </p>
+        <p>
+          Voici l’un d’eux ci-dessous pour les curieux :
+        </p>
+      </div>
+
+      <div class="video-preview fade-in delay-1">
+        <div class="video-frame">
+          <a href="https://www.youtube.com/watch?v=lqdUi6t7EL0" target="_blank" rel="noopener">
+          <img src="assets/wr_speedrun_tjoc_sm_attic.jpg" alt="Miniature de speedrun"/>
+          </a>
+          <button class="play-btn" aria-label="Lire la vidéo">
+            ▶
+          </button>
+        </div>
+        <p class="video-caption">Exemple de record de speedrun réalisé sur l’un de mes jeux favoris.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projects" class="projects-section section">
+    <div class="container section-header fade-in">
+      <h2>Projets sélectionnés</h2>
+      <p>Voici quatre réalisations détaillées, chaque projet dispose d’une page dédiée présentant le contexte, les livrables et les apprentissages.</p>
+    </div>
+
+    <div class="container cards-grid">
+      <!-- Pokémon TCG -->
+      <article class="card project-card hover-tilt fade-in">
+        <img src="assets/Pokémon_Trading_Card_Game_logo.svg.png" alt="Aperçu du projet Pokémon TCG" />
+        <div class="project-content">
+          <h3>Pokémon TCG</h3>
+          <p>SAE 2.01 — Version simplifiée du jeu Pokémon TCG. Partie "invisible" (POO) + IHM. Optimisation du code et architecture objet.</p>
+          <div class="project-tags">
+            <span>Java</span><span>JavaFX</span><span>POO</span>
+          </div>
+          <a href="project-pokemon.html" class="btn ghost btn-small">Voir le projet</a>
+        </div>
+      </article>
+
+      <!-- Met l'Audi -->
+      <article class="card project-card hover-tilt fade-in delay-1">
+        <img src="assets/ani1.png" alt="Jeu Met l'Audi" />
+        <div class="project-content">
+          <h3>Met l'Audi — Code Game Jam</h3>
+          <p>Code Game Jam — thème "Mélodie à l’infini". Développé avec Unity / C#. Prototype et gameplay en 30 heures.</p>
+          <div class="project-tags">
+            <span>Unity</span><span>C#</span><span>Game Jam</span>
+          </div>
+          <a href="project-metlaudi.html" class="btn ghost btn-small">Voir le projet</a>
+        </div>
+      </article>
+
+      <!-- Forgotten Realm -->
+      <article class="card project-card hover-tilt fade-in delay-2">
+        <img src="assets/logo-removebg-preview(1).png" alt="Projet Forgotten Realm" />
+        <div class="project-content">
+          <h3>Forgotten Realm</h3>
+          <p>Projet personnel — jeu vidéo orienté univers fantasy/médiéval en Python (PyGame).</p>
+          <div class="project-tags">
+            <span>Python</span><span>PyGame</span><span>RPG</span>
+          </div>
+          <a href="project-forgotten-realm.html" class="btn ghost btn-small">Voir le projet</a>
+        </div>
+      </article>
+
+      <!-- Démocratie participative -->
+      <article class="card project-card hover-tilt fade-in delay-3">
+        <img src="assets/democratie.png" alt="Site démocratie participative" />
+        <div class="project-content">
+          <h3>Site Démocratie participative</h3>
+          <p>SAE 3.01 — Site internet autour de la démocratie participative, PHP/HTML/CSS.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>HTML / CSS</span><span>Bootstrap</span>
+          </div>
+          <a href="project-democratie.html" class="btn ghost btn-small">Voir le projet</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="skills" class="skills section">
+    <div class="container section-header fade-in">
+      <h2>Compétences & outils</h2>
+      <p>Un socle technique orienté développement de jeux vidéo et web, en constante évolution.</p>
+    </div>
+
+    <div class="container skills-grid fade-in">
+      <ul class="skill-list">
+        <li>Java / JavaFX</li>
+        <li>Python / PyGame</li>
+        <li>C# / Unity</li>
+        <li>HTML / CSS / JS / PHP</li>
+        <li>POO & architecture</li>
+        <li>Git / GitHub</li>
+        <li>Design basique (Piskel, IA, etc.)</li>
+        <li>Organisation de projet & Agile</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 – Sophian Alami Chentoufi. Tous droits réservés.</p>
+  <p><a href="contact.html">Me contacter</a></p>
+</footer>
+</body>
+</html>
