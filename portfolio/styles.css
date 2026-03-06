@@ -926,3 +926,44 @@ body {
   font-size: 1.05rem;
 }
 
+.RACDV {
+  color: red;
+}
+
+.C3 {
+  color: blue;
+}
+
+.C4 {
+  color: cyan;
+}
+
+.C5 {
+  color: yellow;
+}
+
+
+
+
+
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 600px;
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+
+
+
+
