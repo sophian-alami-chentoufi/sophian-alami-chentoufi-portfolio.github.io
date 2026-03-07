@@ -52,11 +52,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-document.querySelectorAll(".accordion-item").forEach(item => {
-  const header = item.querySelector(".accordion-header");
-
+document.querySelectorAll(".accordion-header").forEach(header => {
   header.addEventListener("click", () => {
+
+    const item = header.parentElement;
+    const content = header.nextElementSibling;
+
     item.classList.toggle("active");
+
+    if (item.classList.contains("active")) {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } else {
+      content.style.maxHeight = null;
+    }
+
   });
 });
 
